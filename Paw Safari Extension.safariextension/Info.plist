@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Lucky Marmot</string>
+	<key>Builder Version</key>
+	<string>8536.28.10</string>
+	<key>CFBundleDisplayName</key>
+	<string>Paw Safari Extension</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.luckymarmot.pawsafariextension</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Context Menu Items</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string>openpageinpaw</string>
+				<key>Identifier</key>
+				<string>com.luckymarmot.pawsafariextension.openpageinpaw</string>
+				<key>Title</key>
+				<string>Open Page in Paw</string>
+			</dict>
+		</array>
+		<key>Global Page</key>
+		<string>pawsafariextension.html</string>
+		<key>Menus</key>
+		<array>
+			<dict>
+				<key>Identifier</key>
+				<string>com.luckymarmot.pawsafariextension.pawmenu</string>
+				<key>Menu Items</key>
+				<array>
+					<dict>
+						<key>Command</key>
+						<string>try();</string>
+						<key>Identifier</key>
+						<string>com.luckymarmot.pawsafariextension.pawmenu.item1</string>
+						<key>Title</key>
+						<string>Paw</string>
+					</dict>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>Start</key>
+			<array>
+				<string>dom_event_listener.js</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>Open links into Paw.</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>http://luckymarmot.com/paw</string>
+</dict>
+</plist>
